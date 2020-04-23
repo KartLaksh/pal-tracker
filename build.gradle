@@ -14,7 +14,7 @@ dependencies {
             {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
-
+    compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7")
 }
 
 test {
