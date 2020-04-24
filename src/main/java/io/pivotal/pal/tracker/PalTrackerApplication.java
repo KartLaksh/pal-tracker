@@ -16,7 +16,7 @@ public class PalTrackerApplication {
 //    }
 
     TimeEntryRepository JdbcTimeEntryRepository() {
-        return  JdbcTimeEntryRepository();
+        return new InMemoryTimeEntryRepository();
       }
 
 }
